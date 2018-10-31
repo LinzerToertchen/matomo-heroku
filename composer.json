@@ -1,0 +1,21 @@
+{
+  "repositories": [{
+    "type": "package",
+    "package": {
+      "name": "matomo",
+      "version": "3.6.1",
+      "dist": {
+        "type": "zip",
+        "url": "https://builds.matomo.org/matomo-3.6.1.zip"
+      }
+    }
+  }],
+  "require": {
+    "matomo": "*",
+    "ext-mbstring": "*",
+    "ext-gd": "*"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
